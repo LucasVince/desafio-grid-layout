@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #212324;
+    padding: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    background-color: #dde5e9;
+    border-radius: 10px;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #323536;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+    margin: 35px 0px;
+}
+
+#grid {
+    display: grid;
+
+    grid-template-columns: 25% 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 25%;
+
+    gap: 20px;
+
+    height: 1000px;
+}
+
+#d1 {
+    grid-row: 1/4;
+    background-color: #c1c6c9;
+    border-radius: 30px;
+}
+
+#d2 {
+    grid-column: 2/3;
+    background-image: url(img/ps5\ img1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#d3 {
+    grid-column: 3/4;
+    background-image: url(img/ps5\ img2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#d4 {
+    grid-column: 2/3;
+    background-image: url(img/controle\ ps5.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#d5 {
+    grid-column: 3/4;
+    background-image: url(img/xbox\ img1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#d6 {
+    grid-column: 2/3;
+    background-image: url(img/xbox\ img2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#d7 {
+    grid-column: 3/4;
+    background-image: url(img/controle\ xbox.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#d8 {
+    grid-column: 1/4;
+    background-color: #c1c6c9;
+    border-radius: 30px;
+}
